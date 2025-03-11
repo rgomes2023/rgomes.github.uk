@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Navigation */
+nav {
+    background: #2c3e50;
+    padding: 1rem 0;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+
+nav a:hover {
+    color: #3498db;
+}
+
+/* Hero Section */
+header {
+    background: #3498db;
+    color: #fff;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+header .cta {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background: #2c3e50;
+    color: #fff;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+header .cta:hover {
+    background: #1a252f;
+}
+
+/* Profile Image */
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* Projects */
+.project img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.project h3 {
+    margin-top: 0.5rem;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
